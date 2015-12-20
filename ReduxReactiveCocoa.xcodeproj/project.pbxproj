@@ -41,6 +41,10 @@
 		7304BDF31C263FD400538814 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7304BDA71C263DA700538814 /* ReactiveCocoa.framework */; };
 		7304BDF41C263FD400538814 /* Redux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7304BDA81C263DA700538814 /* Redux.framework */; };
 		7304BDF51C263FD400538814 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7304BDA91C263DA700538814 /* Result.framework */; };
+		7304BDFA1C26421100538814 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BDF91C26421100538814 /* Mocks.swift */; };
+		7304BDFB1C26421100538814 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BDF91C26421100538814 /* Mocks.swift */; };
+		7304BDFC1C26421100538814 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BDF91C26421100538814 /* Mocks.swift */; };
+		7304BDFD1C26430C00538814 /* ReduxReactiveCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304BD4D1C2637DD00538814 /* ReduxReactiveCocoaTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +98,7 @@
 		7304BDBF1C263E0300538814 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = "<group>"; };
 		7304BDD71C263F8400538814 /* ReduxReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReduxReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7304BDE01C263F8400538814 /* ReduxReactiveCocoa-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReduxReactiveCocoa-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7304BDF91C26421100538814 /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				7304BD4F1C2637DD00538814 /* Info.plist */,
+				7304BDF91C26421100538814 /* Mocks.swift */,
 				7304BD4D1C2637DD00538814 /* ReduxReactiveCocoaTests.swift */,
 			);
 			path = ReduxReactiveCocoaTests;
@@ -668,6 +674,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7304BDA31C263AF700538814 /* ReduxReactiveCocoaTests.swift in Sources */,
+				7304BDFB1C26421100538814 /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +691,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7304BDA41C263AF800538814 /* ReduxReactiveCocoaTests.swift in Sources */,
+				7304BDFC1C26421100538814 /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +715,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7304BDFA1C26421100538814 /* Mocks.swift in Sources */,
+				7304BDFD1C26430C00538814 /* ReduxReactiveCocoaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
