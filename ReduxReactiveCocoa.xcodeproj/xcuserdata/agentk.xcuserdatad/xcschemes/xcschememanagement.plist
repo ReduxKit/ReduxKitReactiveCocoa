@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ReduxReactiveCocoa-Mac.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ReduxReactiveCocoa-iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>ReduxReactiveCocoa-tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ReduxReactiveCocoa-watchOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7304BD3D1C2637DD00538814</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7304BD471C2637DD00538814</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7304BD5A1C2637F900538814</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7304BD631C2637F900538814</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7304BD761C26380E00538814</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7304BD7F1C26380E00538814</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7304BD921C26381F00538814</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
