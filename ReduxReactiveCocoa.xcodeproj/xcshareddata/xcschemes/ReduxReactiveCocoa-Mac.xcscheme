@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7304BD5A1C2637F900538814"
-               BuildableName = "ReduxReactiveCocoa-Mac.framework"
+               BuildableName = "ReduxReactiveCocoa.framework"
                BlueprintName = "ReduxReactiveCocoa-Mac"
                ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7304BD5A1C2637F900538814"
-            BuildableName = "ReduxReactiveCocoa-Mac.framework"
+            BuildableName = "ReduxReactiveCocoa.framework"
             BlueprintName = "ReduxReactiveCocoa-Mac"
             ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7304BD5A1C2637F900538814"
-            BuildableName = "ReduxReactiveCocoa-Mac.framework"
+            BuildableName = "ReduxReactiveCocoa.framework"
             BlueprintName = "ReduxReactiveCocoa-Mac"
             ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7304BD5A1C2637F900538814"
-            BuildableName = "ReduxReactiveCocoa-Mac.framework"
+            BuildableName = "ReduxReactiveCocoa.framework"
             BlueprintName = "ReduxReactiveCocoa-Mac"
             ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
          </BuildableReference>

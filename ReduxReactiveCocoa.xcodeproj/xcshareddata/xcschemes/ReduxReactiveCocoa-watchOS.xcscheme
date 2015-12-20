@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7304BD921C26381F00538814"
-               BuildableName = "ReduxReactiveCocoa-watchOS.framework"
+               BuildableName = "ReduxReactiveCocoa.framework"
                BlueprintName = "ReduxReactiveCocoa-watchOS"
                ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7304BD921C26381F00538814"
-            BuildableName = "ReduxReactiveCocoa-watchOS.framework"
+            BuildableName = "ReduxReactiveCocoa.framework"
             BlueprintName = "ReduxReactiveCocoa-watchOS"
             ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7304BD921C26381F00538814"
-            BuildableName = "ReduxReactiveCocoa-watchOS.framework"
+            BuildableName = "ReduxReactiveCocoa.framework"
             BlueprintName = "ReduxReactiveCocoa-watchOS"
             ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
          </BuildableReference>

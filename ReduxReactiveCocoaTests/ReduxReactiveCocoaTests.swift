@@ -3,10 +3,12 @@
 //  ReduxReactiveCocoaTests
 //
 //  Created by Karl Bowden on 20/12/2015.
-//  Copyright © 2015 SwiftRedux. All rights reserved.
+//
 //
 
 import XCTest
+import ReactiveCocoa
+import Redux
 @testable import ReduxReactiveCocoa
 
 class ReduxReactiveCocoaTests: XCTestCase {
@@ -24,7 +26,6 @@ class ReduxReactiveCocoaTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssert(1 == 1)
     }
 
     func testPerformanceExample() {

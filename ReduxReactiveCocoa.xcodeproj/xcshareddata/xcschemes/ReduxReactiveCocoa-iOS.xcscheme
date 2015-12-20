@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7304BD3D1C2637DD00538814"
+               BlueprintIdentifier = "7304BDD61C263F8400538814"
                BuildableName = "ReduxReactiveCocoa-iOS.framework"
                BlueprintName = "ReduxReactiveCocoa-iOS"
                ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7304BD471C2637DD00538814"
+               BlueprintIdentifier = "7304BDDF1C263F8400538814"
                BuildableName = "ReduxReactiveCocoa-iOSTests.xctest"
                BlueprintName = "ReduxReactiveCocoa-iOSTests"
                ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7304BD3D1C2637DD00538814"
+            BlueprintIdentifier = "7304BDD61C263F8400538814"
             BuildableName = "ReduxReactiveCocoa-iOS.framework"
             BlueprintName = "ReduxReactiveCocoa-iOS"
             ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7304BD3D1C2637DD00538814"
+            BlueprintIdentifier = "7304BDD61C263F8400538814"
             BuildableName = "ReduxReactiveCocoa-iOS.framework"
             BlueprintName = "ReduxReactiveCocoa-iOS"
             ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7304BD3D1C2637DD00538814"
+            BlueprintIdentifier = "7304BDD61C263F8400538814"
             BuildableName = "ReduxReactiveCocoa-iOS.framework"
             BlueprintName = "ReduxReactiveCocoa-iOS"
             ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">

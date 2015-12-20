@@ -1,0 +1,2 @@
+github "agentk/reduxSwift" "master"
+github "ReactiveCocoa/ReactiveCocoa" ~> 4.0
