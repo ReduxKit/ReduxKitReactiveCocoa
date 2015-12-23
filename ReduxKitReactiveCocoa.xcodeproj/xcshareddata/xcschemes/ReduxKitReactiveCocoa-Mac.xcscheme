@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7304BD761C26380E00538814"
-               BuildableName = "ReduxReactiveCocoa.framework"
-               BlueprintName = "ReduxReactiveCocoa-tvOS"
-               ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
+               BlueprintIdentifier = "7304BD5A1C2637F900538814"
+               BuildableName = "ReduxKitReactiveCocoa.framework"
+               BlueprintName = "ReduxKitReactiveCocoa-Mac"
+               ReferencedContainer = "container:ReduxKitReactiveCocoa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7304BD7F1C26380E00538814"
-               BuildableName = "ReduxReactiveCocoa-tvOSTests.xctest"
-               BlueprintName = "ReduxReactiveCocoa-tvOSTests"
-               ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
+               BlueprintIdentifier = "7304BD631C2637F900538814"
+               BuildableName = "ReduxKitReactiveCocoa-MacTests.xctest"
+               BlueprintName = "ReduxKitReactiveCocoa-MacTests"
+               ReferencedContainer = "container:ReduxKitReactiveCocoa.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7304BD761C26380E00538814"
-            BuildableName = "ReduxReactiveCocoa.framework"
-            BlueprintName = "ReduxReactiveCocoa-tvOS"
-            ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
+            BlueprintIdentifier = "7304BD5A1C2637F900538814"
+            BuildableName = "ReduxKitReactiveCocoa.framework"
+            BlueprintName = "ReduxKitReactiveCocoa-Mac"
+            ReferencedContainer = "container:ReduxKitReactiveCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7304BD761C26380E00538814"
-            BuildableName = "ReduxReactiveCocoa.framework"
-            BlueprintName = "ReduxReactiveCocoa-tvOS"
-            ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
+            BlueprintIdentifier = "7304BD5A1C2637F900538814"
+            BuildableName = "ReduxKitReactiveCocoa.framework"
+            BlueprintName = "ReduxKitReactiveCocoa-Mac"
+            ReferencedContainer = "container:ReduxKitReactiveCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7304BD761C26380E00538814"
-            BuildableName = "ReduxReactiveCocoa.framework"
-            BlueprintName = "ReduxReactiveCocoa-tvOS"
-            ReferencedContainer = "container:ReduxReactiveCocoa.xcodeproj">
+            BlueprintIdentifier = "7304BD5A1C2637F900538814"
+            BuildableName = "ReduxKitReactiveCocoa.framework"
+            BlueprintName = "ReduxKitReactiveCocoa-Mac"
+            ReferencedContainer = "container:ReduxKitReactiveCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

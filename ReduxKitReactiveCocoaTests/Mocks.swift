@@ -1,12 +1,12 @@
 //
 //  Mocks.swift
-//  ReduxReactiveCocoa
+//  ReduxKitReactiveCocoa
 //
 //  Created by Karl Bowden on 20/12/2015.
-//  Copyright © 2015 SwiftRedux. All rights reserved.
+//  Copyright © 2015 ReduxKit. All rights reserved.
 //
 
-import Redux
+import ReduxKit
 
 struct State {
     let count: Int

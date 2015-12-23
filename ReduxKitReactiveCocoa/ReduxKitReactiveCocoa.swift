@@ -1,29 +1,29 @@
 //
-//  ReduxReactiveCocoa.swift
-//  ReduxReactiveCocoa
+//  ReduxKitReactiveCocoa.swift
+//  ReduxKitReactiveCocoa
 //
 //  Created by Karl Bowden on 20/12/2015.
-//  Copyright © 2015 SwiftRedux. All rights reserved.
+//  Copyright © 2015 ReduxKit. All rights reserved.
 //
 
 import ReactiveCocoa
-import Redux
+import ReduxKit
 
 
 /**
 
- Uses `createStateStream` to create a `Redux.Store<State>` using a
+ Uses `createStateStream` to create a `ReduxKit.Store<State>` using a
  `ReactiveCocoa.Observer<State, NoError>` stream.
 
  */
-public func createStore<State>(reducer: ((State?, Redux.Action) -> State), state: State? = nil) -> Store<State> {
+public func createStore<State>(reducer: ((State?, ReduxKit.Action) -> State), state: State? = nil) -> Store<State> {
     return createStreamStore(createStream, reducer: reducer, state: nil)
 }
 
 
 /**
 
- Accepts a `State` and returns `Redux.StateStream<State>` using a
+ Accepts a `State` and returns `ReduxKit.StateStream<State>` using a
  `ReactiveCocoa.Observer<State, NoError>` as the stream provider.
 
  */

@@ -4,22 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ReduxReactiveCocoa-Mac.xcscheme_^#shared#^_</key>
+		<key>ReduxKitReactiveCocoa-Mac.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>ReduxReactiveCocoa-iOS.xcscheme_^#shared#^_</key>
+		<key>ReduxKitReactiveCocoa-iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>ReduxReactiveCocoa-tvOS.xcscheme_^#shared#^_</key>
+		<key>ReduxKitReactiveCocoa-tvOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>ReduxReactiveCocoa-watchOS.xcscheme_^#shared#^_</key>
+		<key>ReduxKitReactiveCocoa-watchOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>

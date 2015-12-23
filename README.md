@@ -1,13 +1,13 @@
-# ReduxReactiveCocoa
+# ReduxKitReactiveCocoa
 
-ReactiveCocoa bindings for Redux.
+ReactiveCocoa bindings for ReduxKit.
 
 ## Usage / Quick start
 
 ```swift
 import ReactiveCocoa
-import Redux
-import ReduxReactiveCocoa
+import ReduxKit
+import ReduxKitReactiveCocoa
 
 // Setup State, Actions and Reducers
 struct State {
@@ -32,7 +32,7 @@ func reducer(previousState: State? = nil, action: Action) -> State {
 }
 
 // Create the Store
-let store: Store<State> = ReduxReactiveCocoa.createStore(reducer)
+let store: Store<State> = ReduxKitReactiveCocoa.createStore(reducer)
 
 let disposable = store.subscribe { print("Count: \($0.count)") }
 // -> Count: 0
@@ -50,9 +50,9 @@ store.dispatch(IncrementAction())
 
 ### [Carthage](https://github.com/Carthage/Carthage)
 
-Add ReduxReactiveCocoa to `Cartfile`
+Add ReduxKitReactiveCocoa to `Cartfile`
 ```
-github "SwiftRedux/ReduxReactiveCocoa"
+github "ReduxKit/ReduxKitReactiveCocoa" ~> 0.1
 ```
 
 Run in terminal:
@@ -62,13 +62,10 @@ $ carthage update
 
 ### [CocoaPods](http://cocoapods.org)
 
-Add ReduxReactiveCocoa to your `Podfile`:
+Add ReduxKitReactiveCocoa to your `Podfile`:
 
 ```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
-
-pod 'ReduxReactiveCocoa', '~> 0.0.19'
+pod 'ReduxKitReactiveCocoa', '~> 0.1'
 ```
 
 Then, run the following command:
@@ -86,17 +83,17 @@ func createStore<State>(reducer: Reducer, state: State? = nil)
 	-> Store<State>
 ```
 
-Uses `createStateStream` to create a `Redux.Store<State>` using a `ReactiveCocoa.Observer<State, NoError>` stream.
+Uses `createStateStream` to create a `ReduxKit.Store<State>` using a `ReactiveCocoa.Observer<State, NoError>` stream.
 
 
 ### createStateStream
 
 ```swift
-public func createStream<State>(state: State)
+func createStream<State>(state: State)
 	-> StateStream<State>
 ```
 
-Accepts a `State` and returns `Redux.StateStream<State>` using a `ReactiveCocoa.Observer<State, NoError>` as the stream provider.
+Accepts a `State` and returns `ReduxKit.StateStream<State>` using a `ReactiveCocoa.Observer<State, NoError>` as the stream provider.
 
 ### createDisposable
 

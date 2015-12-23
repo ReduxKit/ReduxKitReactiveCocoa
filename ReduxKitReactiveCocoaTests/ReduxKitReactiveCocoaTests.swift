@@ -1,19 +1,19 @@
 //
-//  ReduxReactiveCocoaTests.swift
-//  ReduxReactiveCocoaTests
+//  ReduxKitReactiveCocoaTests.swift
+//  ReduxKitReactiveCocoaTests
 //
 //  Created by Karl Bowden on 20/12/2015.
-//  Copyright © 2015 SwiftRedux. All rights reserved.
+//  Copyright © 2015 ReduxKit. All rights reserved.
 //
 
 import XCTest
 import ReactiveCocoa
-import Redux
-@testable import ReduxReactiveCocoa
+import ReduxKit
+@testable import ReduxKitReactiveCocoa
 
-class ReduxReactiveCocoaTests: XCTestCase {
+class ReduxKitReactiveCocoaTests: XCTestCase {
 
-    let store: Store<State> = ReduxReactiveCocoa.createStore(reducer)
+    let store: Store<State> = ReduxKitReactiveCocoa.createStore(reducer)
     let action = IncrementAction()
     let action2 = IncrementAction(payload: 2)
 
@@ -85,7 +85,7 @@ class ReduxReactiveCocoaTests: XCTestCase {
         let count = 100000
         self.measureBlock {
             // Arrange
-            let store = ReduxReactiveCocoa.createStore(reducer)
+            let store = ReduxKitReactiveCocoa.createStore(reducer)
             let action = IncrementAction()
             var state: State!
             store.subscribe { state = $0 }
