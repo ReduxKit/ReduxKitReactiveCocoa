@@ -101,6 +101,7 @@
 		7304BDF91C26421100538814 /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		7304BDFE1C2647E100538814 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7304BDFF1C2647E100538814 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		73D6BBBD1C2A7F4000FAA686 /* ReduxKitReactiveCocoa.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReduxKitReactiveCocoa.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +188,7 @@
 				7304BDFF1C2647E100538814 /* README.md */,
 				7304BDA51C263CFF00538814 /* Cartfile */,
 				7304BDA61C263CFF00538814 /* Cartfile.resolved */,
+				73D6BBBD1C2A7F4000FAA686 /* ReduxKitReactiveCocoa.podspec */,
 				7304BD401C2637DD00538814 /* ReduxKitReactiveCocoa */,
 				7304BD4C1C2637DD00538814 /* ReduxKitReactiveCocoaTests */,
 				7304BDAD1C263DB300538814 /* Dependencies iOS */,
