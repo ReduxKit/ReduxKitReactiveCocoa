@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source            = { :git => 'https://github.com/ReduxKit/ReduxKitReactiveCocoa.git', :tag => spec.version.to_s }
   spec.source_files      = 'ReduxKitReactiveCocoa'
   spec.dependency          'ReduxKit', '~> 0.1'
-  spec.dependency          'ReactiveCocoa', '~> 4.0'
+  spec.dependency          'ReactiveCocoa', '~> 4.0.4-alpha-4'
   spec.ios.deployment_target     = '8.0'
   spec.osx.deployment_target     = '10.10'
   #spec.tvos.deployment_target    = '9.0'
